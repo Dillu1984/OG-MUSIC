@@ -1,4 +1,4 @@
-### Powered By @BikashHalder & @AdityaHalder 
+### Powered By @Dilpreetsingh
 
 ### Join @OGsNetwork For More Update
 
