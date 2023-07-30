@@ -1,0 +1,78 @@
+{
+    "name": "Og Music Bot",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://graph.org/file/8ccfcc2a93fcf70097748.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "modules",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "10075162",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "0d9ba711d02c4265b8cd30c8ca7c08a1",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. You can use special characters",
+        "value": "𝙋𝘼𝙉𝙅𝘼𝘽 ✘ 𝙈𝙐𝙎𝙄𝘾",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "6061809727",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram String Session.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
