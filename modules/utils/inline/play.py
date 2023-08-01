@@ -142,7 +142,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
             )
         ],
         [           
@@ -173,7 +173,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
             )
         ],
         [           
@@ -219,7 +219,7 @@ def slider_markup(
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
             )
         ],
         [           
@@ -269,7 +269,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
             )
         ],
         [           
@@ -317,7 +317,7 @@ def panel_markup_2(_, videoid, chat_id):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
             )
         ],
         [           
@@ -367,7 +367,7 @@ def panel_markup_3(_, videoid, chat_id):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{SUPPORT_CHANNEL}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
             )
         ],
         [           
